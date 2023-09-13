@@ -1,0 +1,3 @@
+Implemented a distributed file system
+Server is built as a stand-alone UDP-based server. It should wait for a message and then process the message as need be, replying to the given client.
+Each directory has an inode, and points to one or more data blocks that contain directory entries. Each directory entry should be simple, and consist of 32 bytes: a name and an inode number pair.
